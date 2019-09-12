@@ -1,6 +1,6 @@
 //Funktion kontrollera ålder
 function CheckAge(){
-    var age = document.getElementById ("textbox"); //Hämtar värdet i textrutan i index
+    var age = document.getElementById ("textbox"); //Hämtar värdet i textrutan ifrån index
 
     if(age.value <= 17 && age.value >= 0){ //När ålder är mellan 0-17 = För ung
         alert("Too young!")
@@ -14,6 +14,5 @@ function CheckAge(){
     }
 
     }
-
 
 
